@@ -1,0 +1,98 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0%;
+    background-color: rgb(117, 233, 107);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(133, 42, 42);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: azure;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color:black
+}
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button {
+    display: block;
+    width: 600px;
+    height: 50px;
+    padding: 15px 32px;
+    background-color:rgb(103, 224, 228);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    display:inline-block 
+    
+
+
+}
+button:hover {
+    background-color: rgb(144, 76, 192);
+
+}
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px rgb(103, 224, 228);
+    border-radius: 8px;
+    background-color:whitesmoke ;
+    box-shadow: 0 4px 8px black(0, 0, 0, 0.5);
+
+}
+#resumeOutput  h2 {
+    color: black;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid (srgb rgb(199, 80, 135));
+    box-shadow: 0 4px 9 px color(srgb rgb(182, 250, 56));
+    border-radius: 600%;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+
+}
